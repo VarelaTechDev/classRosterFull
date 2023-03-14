@@ -9,5 +9,4 @@ public class ClassrosterFullApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(ClassrosterFullApplication.class, args);
 	}
-
 }
