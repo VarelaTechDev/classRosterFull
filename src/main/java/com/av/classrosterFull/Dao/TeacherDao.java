@@ -5,7 +5,6 @@ import org.springframework.stereotype.Repository;
 
 import java.util.List;
 
-@Repository
 public interface TeacherDao {
     Teacher getTeacherById(int id);
     List<Teacher> getAllTeachers();
