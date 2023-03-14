@@ -19,7 +19,7 @@ public class StudentDaoDB implements StudentDao{
     JdbcTemplate jdbc;
 
     @Override
-    public Student getStudentById(int id) {
+    public Student getStudentById(int id){
         try {
             final String SELECT_STUDENT_BY_ID = "SELECT * FROM student WHERE id = ?";
             return jdbc.queryForObject(SELECT_STUDENT_BY_ID, new StudentMapper(), id);

@@ -1,7 +1,6 @@
 package com.av.classrosterFull.Dao;
 
 import com.av.classrosterFull.Entities.Teacher;
-import org.springframework.stereotype.Repository;
 
 import java.util.List;
 
